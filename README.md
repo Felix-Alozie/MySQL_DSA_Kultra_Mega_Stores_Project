@@ -26,13 +26,13 @@ Key questions addressed and summarized insights include:
 
 1. **Highest Selling Product Category**
    - `Office Supplies` recorded the highest total sales volume across all years.
-
---- SQL
+```SQL
 SELECT product_category, 
 ROUND (SUM(sales), 2) AS total_sales
 FROM kms_sales
 GROUP BY product_category
 ORDER BY total_sales DESC
-LIMIT 1; ---
+LIMIT 1;
+```
 
 
