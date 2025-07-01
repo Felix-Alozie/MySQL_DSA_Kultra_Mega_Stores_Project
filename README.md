@@ -19,9 +19,16 @@ The dataset was obtained from the [DSA Learning Management System (LMS) Canvas p
 - **MySQL Workbench:** SQL development environment
 - **Git & GitHub:** project presentation
 
-## 🔍 Exploratory Data Analysis
-
+## Exploratory Data Analysis
 Key questions addressed and summarized insights include:
+```SQL
+CREATE DATABASE KMS_Sql_Case_Study;
+USE KMS_Sql_Case_Study;
+## I imported 2 files as my tables; KMS_Sales and Order_Status into the Database(KMS_Sql_Case_Study)  ##
+SELECT * FROM KMS_Sales;
+SELECT * FROM Order_status;
+```
+
 ### 🔹 Case Scenario I:
 
 1. **Highest Selling Product Category**
