@@ -25,7 +25,7 @@ Key questions addressed and summarized insights include:
 ### 🔹 Case Scenario I:
 
 1. **Highest Selling Product Category**
-   - `Office Supplies` recorded the highest total sales volume across all years.
+   - `Technology` recorded the highest total sales volume across all years.
 ```SQL
 SELECT product_category, 
 ROUND (SUM(sales), 2) AS total_sales
@@ -33,6 +33,25 @@ FROM kms_sales
 GROUP BY product_category
 ORDER BY total_sales DESC
 LIMIT 1;
+```
+2. **Top 3 and Bottom 3 Regions by Sales**
+   - **Top 3 Regions:** West, Ontario, prarie
+   - **Bottom 3 Regions:** Nunavut, Northwest Territories Yukon
+```SQL
+-- Top 3 Regions
+SELECT region, 
+ROUND (SUM(sales), 2) AS total_sales
+FROM kms_sales
+GROUP BY region
+ORDER BY total_sales DESC
+LIMIT 3;
+-- Bottom 3 Regions
+SELECT region, 
+ROUND (SUM(sales), 2) AS total_sales
+FROM kms_sales
+GROUP BY region
+ORDER BY total_sales ASC
+LIMIT 3;
 ```
 
 
