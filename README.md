@@ -7,7 +7,7 @@ As a Business Intelligence Analyst, I used structured query language (SQL) to ex
 
 ## Data Source
 
-The dataset was obtained from the [DSA Learning Management System (LMS) Canvas platform](https://canvas.instructure.com/courses/11955369/files/302722474?wrap=1) as part of the final capstone project for the Data Analysis track.
+The dataset was obtained from the [DSA Learning Management System (LMS) Canvas platform](https://canvas.instructure.com/courses/11955369/files/folder/DSA%20Capstone%20Project%20Files) as part of the final capstone project for the Data Analysis track.
 
 - **File Format:** Excel (.csv)
 - **Data Period:** 2009–2012
